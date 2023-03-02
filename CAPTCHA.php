@@ -1,5 +1,6 @@
 <?php
 session_start();
+//include('urlap.php');
 
 $width = 200;
 $height = 60;
