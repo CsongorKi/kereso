@@ -53,6 +53,8 @@ echo "Hiba történt a jelentkezés rögzítése közben: " . $conn->error;
 
 // Adatbázis kapcsolat bezárása
 $conn->close();
+
+include('CAPTCHA.php');
 ?>
 
 ?>
