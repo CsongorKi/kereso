@@ -1,5 +1,5 @@
 <?php
-
+include('CAPTCHA.php');
 // Űrlap adatok feldolgozása
 if (isset($_POST['zsa'])) {
     $nev = $_POST['nev'];
